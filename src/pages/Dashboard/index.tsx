@@ -51,8 +51,6 @@ function Dashboard(props: DashboardProps) {
         available: true,
       });
 
-      console.log(response.data);
-
       const newFood = {
         ...food,
         available: true,

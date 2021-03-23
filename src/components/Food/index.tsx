@@ -44,7 +44,6 @@ function Food(props: FoodProps) {
   // render() {
   //   const { isAvailable } = this.state;
   //  const { food, handleDelete } = this.props;
-  console.log('no componente food - id = ' + food.id);
   return (
     <Container available={isAvailable}>
       <header>
